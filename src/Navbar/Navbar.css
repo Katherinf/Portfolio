@@ -1,24 +1,22 @@
 .Navbar {
-    display: flex;
-    margin: 2rem 3rem 2rem 3rem;
-    justify-content: space-between;
+    margin: 2rem 3rem; 
   }
-  .MFlix h2 {
-    color: #61dafb;
+  .background-img{
+    width: 100%;
+    /*overflow: hidden;*/
+    position: relative;
+  }
+  .Navbar .logo {
+    color: #ffffffff;
     font-size: 2.5rem;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    padding: 10px;
     
   }
-  .Login {  
-    display: inline-flex;
-    align-items: center;
-    
-  }
-  .Login h4{
-    padding: 0 0 0 2rem;
-  }
- 
-  @media only screen and (min-width: 320px) and (max-width: 480px) {
-    .MFlix{
-      margin: 1rem 1rem 1rem 1rem;
-    }
+  p{
+    color: #ffffffff;
+    font-size: 2.5rem;
+    position: absolute;
   }
